@@ -1,29 +1,54 @@
 .headerContainer{
-    height: 5rem;
+    height: 6rem;
     border-bottom: 1px solid var(--black);
     background: var(--white);
 }
 
 .headerContent{
     max-width: 1120px;
-    height: 5rem;
+    height: 6rem;
     margin: 0 auto;
     padding: 0 2rem;
 
     display: flex;
     align-items: center;
 
-    nav{
-        margin-left: 5rem;
+    nav {
+        margin-left: 10rem;
         height: 5rem;
 
         a{
+            font-size: 10pt;
             display: inline-block;
             position: relative;
             padding: 0 0.5rem;
             height: 5rem;
+            text-transform: uppercase;
             line-height: 5rem;
             color: var(--black);
+            margin-right: 1rem;
         }
+        
+        a:last-child {
+            margin-right: 0;
+        }
+        & .active{
+            color: var(--white);
+            font-weight: bold;
+        }
+        & .active::after{
+            content: ' ';
+            height: 3px;
+            border-radius: 3px 3px 0 0;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background: var(--yellow-500);
+        }
+    }
+
+    button{
+        margin-left: auto;
     }
 }

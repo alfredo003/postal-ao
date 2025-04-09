@@ -7,6 +7,7 @@
 }
 
 :root {
+  --colot-primary:#CF142B;
   --white: #ffffff;
   --black: #171717;
 }
@@ -28,7 +29,7 @@ body {
 }
 
 body,input, textarea, select, button {
-  font: 400 1rem 'Roboto', sans-serif;
+  font: bold 1rem 'Roboto', sans-serif;
 }
 
 button {
