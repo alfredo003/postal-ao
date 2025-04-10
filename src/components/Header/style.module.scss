@@ -1,7 +1,7 @@
-.headerContainer{
+.headerContainer {
     height: 6rem;
-    border-bottom: 1px solid var(--black);
     background: var(--white);
+    margin-bottom: 0;
 }
 
 .headerContent{
@@ -33,22 +33,23 @@
             margin-right: 0;
         }
         & .active{
-            color: var(--white);
+            color: var(--color-primary);
             font-weight: bold;
         }
-        & .active::after{
-            content: ' ';
-            height: 3px;
-            border-radius: 3px 3px 0 0;
-            width: 100%;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            background: var(--yellow-500);
-        }
+        
     }
 
     button{
         margin-left: auto;
     }
+}
+
+.img_full{
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+    overflow: clip;
+    display: block; 
+    margin: 0;
+    padding: 0;
 }
