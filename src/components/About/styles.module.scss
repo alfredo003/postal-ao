@@ -1,0 +1,32 @@
+.aboutSection {
+  display: flex;
+  align-items: center;
+  padding: 10rem;
+  gap: 2rem;
+}
+
+.aboutText {
+  flex: 1;
+
+  h1 {
+    font-size: 2rem;
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+}
+
+.aboutImage {
+  flex: 1;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+}
