@@ -1,7 +1,8 @@
 .aboutSection {
+  background: var(--color-primary);
   display: flex;
   align-items: center;
-  padding: 10rem;
+  padding: 7rem;
   gap: 2rem;
 }
 
@@ -10,14 +11,14 @@
 
   h1 {
     font-size: 2rem;
-    color: var(--color-primary);
+    color: var(--white);
     margin-bottom: 1rem;
   }
 
   p {
     font-size: 1rem;
     line-height: 1.5;
-    color: var(--text-color);
+    color: var(--white);
   }
 }
 
